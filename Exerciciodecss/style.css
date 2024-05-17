@@ -1,0 +1,25 @@
+body {
+    background-image: url(paisagem-natural-og\ \(1\).webp);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    display: inline-block;
+    color: antiquewhite;
+    position: fixed;
+    top: 15%; 
+    left: 50%; 
+    transform:translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo h1 {
+    width: 100%;
+    margin: 0;
+}
