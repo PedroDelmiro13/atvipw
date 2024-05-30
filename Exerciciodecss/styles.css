@@ -106,7 +106,7 @@ a:hover {
 }
 
 .sapato {
-    width: 300px;
+    width: 200px;
     text-align: center;
     padding: 25px;
     margin: 15px;
@@ -117,15 +117,14 @@ a:hover {
     max-width: 100%;
     height: auto;
 }
-
 .rodapé {
-    color: whitesmoke;
-    border: 3px ;
-    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 50%;;
+    color: whitesmoke;
+    background-color: gray;
+    padding: 50px;
 }
 
 .sapato h2, .sapato p {
@@ -135,5 +134,5 @@ a:hover {
 }
 
 .backgroundsapato {
-    background-color: #220103;
+    background-image: url(back.jpg);
 }
